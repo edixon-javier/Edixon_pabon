@@ -1,0 +1,103 @@
+
+body {
+    background-color: #ECF0F1;
+    margin: 0;
+}
+.titulo {
+    font-family: sans-serif;
+    padding-top: 25px;
+    text-align: center;
+    
+}
+
+/* para el contenido */
+.menu_1 h3 {
+    color: #1ABC9C ;
+}
+
+.seccion_1  {
+    padding-top: 25px;
+    text-align: center;
+}
+.contenido_1 {
+
+    width: 60%;
+    padding:0;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.contenido_2 {
+    padding: 10px;
+    display: inline-block;
+}
+
+/* menu */
+.menu ul {
+    font-family:monospace;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 5px 7px 30px #333;
+ }
+
+.menu li {
+    line-height: 4rem;
+    position: relative;
+}
+
+.menu li ul {
+    position: absolute;
+}
+
+.menu a {
+    color:#ddd ;
+    display:inline-block;
+    padding: 0 6.2em;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.menu a:hover {
+    background: rgba(0, 0, 0, .5);
+    padding-right: 160px;
+}
+
+.menu > ul {
+    background: #333;
+    display: table;
+    width: 100%;
+}
+
+/* solo para los hijos */
+.menu > ul >li {
+    float: left;
+}
+
+/* para el segundo nivel */
+.menu li li {
+    background: #222;
+    max-height: 0;
+    overflow:hidden;
+    transition:all .5s;
+    width: 200px;
+}
+
+.menu li:hover li  {
+    max-height: 100px;
+    overflow: visible;
+    padding-right: 100px;
+}
+
+
+
+.footer {
+    background-color: #333;
+    color: #ECF0F1;
+    padding-bottom: 1px;
+    text-align: center;
+}
+#text {
+    line-height: 10mm;
+  
+}
